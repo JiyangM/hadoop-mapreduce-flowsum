@@ -1,0 +1,7 @@
+cn\itcast\mapreduce\FlowSum.class
+cn\itcast\mapreduce\FlowSumSort$FlowSumSortMapper.class
+cn\itcast\mapreduce\FlowSumSort$FlowSumSortReducer.class
+cn\itcast\mapreduce\FlowSum$FlowSumMapper.class
+cn\itcast\mapreduce\FlowSum$FlowSumReducer.class
+cn\itcast\mapreduce\FlowSumSort.class
+cn\itcast\mapreduce\FlowBean.class
