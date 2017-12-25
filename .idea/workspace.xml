@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a21f79a0-9739-4e53-9efa-8d9dc2702b5f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/ReduceSideJoin.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/UserInfoBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/MapSideJoin.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="SecondarySort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/SecondarySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            <state relative-caret-position="828">
+              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1660#1689#0" expanded="true" />
@@ -31,14 +30,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReduceSideJoin.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/ReduceSideJoin.java">
+      <file leaf-file-name="MapSideJoin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/MapSideJoin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1422">
-              <caret line="79" column="50" lean-forward="false" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+            <state relative-caret-position="678">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#550#566#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReduceSideJoin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/ReduceSideJoin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/SortBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mapper.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/SecondarySort.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/UserInfoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/ReduceSideJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/MapSideJoin.java" />
       </list>
     </option>
   </component>
@@ -84,8 +126,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="615" />
-    <option name="y" value="94" />
+    <option name="x" value="727" />
+    <option name="y" value="70" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
@@ -145,55 +187,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="ReduceSideJoin" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="FolwSum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-mapreduce-flowsum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="ReduceSideJoin" type="1a9f42e2:ClassTreeNode" />
-              <item name="JoinMapper" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="FolwSum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-mapreduce-flowsum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="SecondarySort" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="FolwSum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-mapreduce-flowsum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="SecondarySort" type="1a9f42e2:ClassTreeNode" />
-              <item name="myPartitioner" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="FolwSum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-mapreduce-flowsum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="SecondarySort" type="1a9f42e2:ClassTreeNode" />
-              <item name="SortMapper" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="FolwSum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-mapreduce-flowsum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="SortBean" type="1a9f42e2:ClassTreeNode" />
+              <item name="MapSideJoin" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="FolwSum" type="b2602c69:ProjectViewProjectNode" />
@@ -271,6 +265,23 @@
               <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-core:2.6.4" type="70bed36:NamedLibraryElementNode" />
               <item name="hadoop-mapreduce-client-core-2.6.4.jar" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FolwSum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-core:2.6.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-mapreduce-client-core-2.6.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="mapred" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FolwSum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-core:2.6.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-mapreduce-client-core-2.6.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="mapred" type="462c0819:PsiDirectoryNode" />
+              <item name="Mapper" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="FolwSum" type="b2602c69:ProjectViewProjectNode" />
@@ -468,12 +479,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514193207455</updated>
-      <workItem from="1514193209173" duration="5162000" />
+      <workItem from="1514193209173" duration="7752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5162000" />
+    <option name="totallyTimeSpent" value="7752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -493,7 +504,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -523,7 +534,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0056179776" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0056179776" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -674,25 +685,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/SecondarySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1660#1689#0" expanded="true" />
-            <element signature="e#1799#1800#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/SortBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="36">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#681#682#0" expanded="true" />
             <element signature="e#744#745#0" expanded="true" />
             <element signature="e#775#776#0" expanded="true" />
@@ -709,10 +706,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/ReduceSideJoin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="79" column="50" lean-forward="false" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+        <state relative-caret-position="180">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4.jar!/org/apache/hadoop/mapred/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/SecondarySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1660#1689#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/mapreduce/MapSideJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#550#566#0" expanded="true" />
           </folding>
         </state>
       </provider>
